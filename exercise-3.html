@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 3</title>
+</head>
+<body>
+    <script>
+        var absolute = function(val){
+            if (val === isNaN(val)){
+                return "Invalid Data Type";
+            }
+            if (val >= 0){
+                return val;
+            }
+            if (val < 0){
+                return val * -1
+            }
+        }
+        console.log(absolute(10));
+    </script>
+</body>
+</html>
